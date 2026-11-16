@@ -46,13 +46,13 @@
   - Initial UML Class Diagram (`Section 2.2`).
   - Problem Statement documentation (`Section 2.1`).
 - **Acceptance Criteria:**
-  - [ ] UML Diagram visually illustrates all 5 SOLID violations clearly.
-  - [ ] Every violation is documented with an explicit pointer to which member will refactor it.
+  - [x] UML Diagram visually illustrates all 5 SOLID violations clearly.
+  - [x] Every violation is documented with an explicit pointer to which member will refactor it.
 
 #### Ticket `LMS-EP1-02`: Initial Java Codebase Implementation (Demonstrating Flaws)
 - **Type:** Development
 - **Assignee:** Full Team
-- **Priority:** High | **Story Points:** 8 | **Sprint:** 1
+- **Priority:** High | **Story Points:** 8 | **Sprint:** 1 | **Status:** Completed
 - **Description:** Implement runnable Java code for the initial problematic design in a dedicated package (e.g., `com.library.presolid`).
 - **Tasks:**
   - Implement `Book`, `Member`, `Loan`, and `Notification` models with mixed responsibilities.
@@ -62,8 +62,8 @@
   - Source code under `src/main/java/com/library/presolid/` (`Section 2.3`).
   - Code commentary highlighting exact lines where SOLID principles are violated.
 - **Acceptance Criteria:**
-  - [ ] Code compiles and executes demonstration scripts.
-  - [ ] Flaw identification table completed for Report Section 2.3.
+  - [x] Code compiles and executes demonstration scripts.
+  - [x] Flaw identification table completed for Report Section 2.3.
 
 ---
 
